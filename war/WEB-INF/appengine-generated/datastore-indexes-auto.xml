@@ -1,0 +1,11 @@
+<!-- Indices written at Wed, 11 Sep 2013 17:06:04 CEST -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Attempt" ancestor="true" source="auto">
+        <property name="studentKey" direction="asc"/>
+        <property name="endTime" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queue-entries>
+	<queue>
+		<name>cheat-queue</name>
+		<rate>1/s</rate>
+		<retry-parameters>
+			<task-age-limit>1d</task-age-limit>
+	    </retry-parameters>
+	    <bucket-size>1</bucket-size>
+	    <max-concurrent-requests>1</max-concurrent-requests>
+	</queue>
+</queue-entries>
